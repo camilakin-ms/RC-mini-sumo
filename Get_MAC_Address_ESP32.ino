@@ -4,6 +4,13 @@
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.  
   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+
+// INSTRUCTIONS:
+// 1. Upload this code to the RECEIVER ESP32
+// 2. Once uploaded, open serial monitor and press the "EN" button on the ESP32
+// 3. The MAC address should appear. If not, retry these steps until it does
+
+
 #include <WiFi.h>
 #include <esp_wifi.h>
 
